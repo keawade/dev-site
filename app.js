@@ -27,5 +27,5 @@ app.use(routes);
 // Start server
 var server = app.listen(app.get('port'), app.get('ip'), function() {
     var address = server.address();
-    console.log('[metis] app running on http://%s:%s', address.address, address.port);
+    console.log('[dev-site] app running on http://%s:%s', address.address, address.port);
 });
